@@ -2,7 +2,9 @@
 
 创建账户--生成一对密钥--公钥派生出地址--保存私钥种子--发起交易--将交易保存交易池中--矿工验证并打包交易--工作证明生成新的区块--挖矿为异步函数表现出竞争--矿工获得新区快奖励和交易手续费
 
-##输出示例：
+## 输出示例
+
+
 ->    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.62s
      Running `target\debug\rchain.exe`
 创建的交易成功添加到交易池中!
