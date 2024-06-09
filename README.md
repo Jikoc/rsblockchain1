@@ -3,17 +3,13 @@
 创建账户--生成一对密钥--公钥派生出地址--保存私钥种子--发起交易--将交易保存交易池中--矿工验证并打包交易--工作证明生成新的区块--挖矿为异步函数表现出竞争--矿工获得新区快奖励和交易手续费
 
 ## 输出示例
-
-# 交易和挖矿日志
-
-## 成功消息
 - 创建的交易成功添加到交易池中!
 - 创建的交易成功添加到交易池中!
 - 挖矿成功，新区快索引为：1，矿工地址为：`28841208d65fb4ff8c9539cf97f50915a6287c4e853adeaa912858032bb62b71`矿工获得了奖励和手续费！
 - 挖矿成功，新区快索引为：2，矿工地址为：`5a374ff48a8a561eb5d27364aaac4cdf7a0d5b7094afb918a0043c0a8aa47ee7`矿工获得了奖励和手续费！
 
-## 区块链数据
-### Blockchain
+### 区块链数据
+####  Blockchain
 - `difficulty`: 3
 - `genesis_block`:
   - `index`: 0
@@ -23,7 +19,7 @@
   - `hash`: ""
   - `transactions`: []
 
-### Blocks
+#### Blocks
 1. `Block 0`:
    - `index`: 0
    - `time`: "2024-06-09 17:37:18"
@@ -63,7 +59,7 @@
        - `time`: "2024-06-09 17:37:18"
        - `service_fee`: 2
 
-### Accounts
+#### Accounts
 - `Account 1`:
   - `private_key_seed`: [略]
   - `public_key`: [略]
@@ -75,5 +71,5 @@
   - `address`: "28841208d65fb4ff8c9539cf97f50915a6287c4e853adeaa912858032bb62b71"
   - `balance`: 190
 
-### Pending Transactions
+#### Pending Transactions
 - 无待处理交易
