@@ -1,0 +1,15 @@
+[package]
+name = "rchain"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4"
+serde_json = "1.0"
+sha2 = "0.10.0"
+ring = "0.17.8"
+rand = "0.8.4"
+serde = {version = "1.0.106", features =["derive"]}
+base64 = "0.22.1"
+tokio = {version = "1.0", features = ["full"]}
+hex = "0.4.3"
